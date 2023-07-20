@@ -5,6 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "jest --watchAll",
+		"test-coverage": "jest --coverage",
+		"unit-tests": "jest --testMatch=**/unit/*.test.js",
+		"unit-integration": "jest --testMatch=**/integration/*.test.js",
 		"dev": "nodemon src/app.js"
 	},
 	"keywords": [],
