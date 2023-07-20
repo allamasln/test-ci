@@ -1,9 +1,9 @@
 name: Deploy to production
 
 on:
-  merge:
+  push:
     branches:
-      - main
+      - develop
 
 jobs:
   unit-tests:
